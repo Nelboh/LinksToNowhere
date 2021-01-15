@@ -9,7 +9,13 @@ h2 {
     font-family: 'Abril Fatface', serif;
     font-size: calc(90px + 1.5vw);
     color: var(--offBlack);
-    padding-top: 9rem;
+    /* padding-top: 9rem; */
+}
+
+h3 {
+    font-family: 'Abril Fatface', serif;
+    font-size: calc(40px + 1.5vw);
+    color: var(--offBlack);
 }
 
 .endAlign {
@@ -27,7 +33,7 @@ p {
     font-size: 16pt;
     font-weight: 100;
     padding-top: 2rem;
-    line-height: 120%;
+    line-height: 140%;
 }
 
 .yellowText {
@@ -46,6 +52,6 @@ label {
     font-family: 'Abril Fatface', serif;
     font-size: 1.5rem;
     color: var(--offBlack);
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem; /* Stops bottom of character being cut off */
 }
