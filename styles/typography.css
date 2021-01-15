@@ -1,0 +1,10 @@
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: calc(150px + 1.5vw);
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: calc(12px + 1.5vw);
+
+}
