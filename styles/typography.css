@@ -1,10 +1,11 @@
 h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: calc(150px + 1.5vw);
+    color: var(--offWhite);
 }
 
 p {
     font-family: 'Nunito', sans-serif;
-    font-size: calc(12px + 1.5vw);
-
+    font-size: calc(10px + 1.5vw);
+    font-weight: 100;
 }
