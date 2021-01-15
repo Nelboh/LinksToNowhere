@@ -1,0 +1,16 @@
+button {
+    height: 3rem;
+    width: 15rem;
+    border: none;
+    margin: auto;
+    margin-top: 2rem;
+
+    font-family: 'Abril Fatface', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.btn-black {
+    color: var(--yellow);
+    background-color: var(--offBlack);
+}
