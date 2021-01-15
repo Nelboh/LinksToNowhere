@@ -1,6 +1,8 @@
 .contactForm {
     background-color: var(--yellow);
-    height: 50rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 55rem;
 }
 
 input, textarea {
@@ -14,8 +16,7 @@ input, textarea {
 
 form {
     display: grid;
-    width: 30%;
     padding-top: 3rem; /* Input padding accounts for 1rem here */
     padding-bottom: 0.5rem;
-    margin: 0 5rem 5rem 5rem; 
+    margin: 0 5rem 0rem 5rem; 
 }

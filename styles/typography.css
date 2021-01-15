@@ -9,8 +9,16 @@ h2 {
     font-family: 'Abril Fatface', serif;
     font-size: calc(90px + 1.5vw);
     color: var(--offBlack);
-    text-align: end;
     padding-top: 9rem;
+}
+
+.endAlign {
+    text-align: end;
+    margin-right: 2rem;
+}
+
+.startAlign {
+    margin-left: 5rem;
 }
 
 p {
@@ -26,10 +34,18 @@ p {
     color: var(--yellow);
 }
 
+.whiteText {
+    color: var(--offWhite);
+}
+
+.blueText {
+    color: var(--darkBlue);
+}
+
 label {
     font-family: 'Abril Fatface', serif;
     font-size: 1.5rem;
     color: var(--offBlack);
     margin-top: 2rem;
-    margin-bottom: 2rem; /* Stops bottom of character being cut off */
+    margin-bottom: 0.5rem; /* Stops bottom of character being cut off */
 }
