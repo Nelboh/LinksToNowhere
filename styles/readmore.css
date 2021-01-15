@@ -1,7 +1,11 @@
 .readmore {
     background-color: var(--offBlack);
     display: grid;
+    grid-template-rows: 0.5fr, 1fr, 1fr;
+    padding: 9rem 2rem 5rem 5rem;
+}
+
+.textButtonHolder {
+    display: grid;
     grid-template-columns: 2fr 1fr;
-    padding-top: 9rem;
-    padding-bottom: 5rem;
 }

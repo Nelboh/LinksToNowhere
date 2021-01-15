@@ -18,4 +18,5 @@ button {
 .btn-yellow {
     color: var(--offBlack);
     background-color: var(--yellow);
+    margin-top: 4rem;
 }
