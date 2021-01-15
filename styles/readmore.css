@@ -5,7 +5,22 @@
     padding: 9rem 2rem 5rem 5rem;
 }
 
+@media screen and (max-width: 768px) {
+    .readmore {
+        grid-template-rows: auto;
+        padding: 9rem 1.5rem 1.5rem 1.5rem;
+    }
+}
+
 .textButtonHolder {
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+    .textButtonHolder {
+        grid-template-columns: auto;
+        grid-auto-rows: auto;
+        padding: 2rem 0rem 4rem 0rem;
+    }
 }
