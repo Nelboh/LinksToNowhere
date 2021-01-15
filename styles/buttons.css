@@ -14,3 +14,8 @@ button {
     color: var(--yellow);
     background-color: var(--offBlack);
 }
+
+.btn-yellow {
+    color: var(--offBlack);
+    background-color: var(--yellow);
+}

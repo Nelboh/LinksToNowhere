@@ -1,0 +1,7 @@
+.readmore {
+    background-color: var(--offBlack);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
