@@ -2,7 +2,14 @@ h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: calc(150px + 1.5vw);
     color: var(--offWhite);
-    padding-left: 5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: calc(20vw + 4vh + 2vmin);
+        text-align: center;
+    }
 }
 
 h2 {
