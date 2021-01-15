@@ -1,21 +1,32 @@
-.contactForm {
+.contactSection {
     background-color: var(--yellow);
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    /* grid-template-columns: 1fr 1.5fr; */
+    /* grid-auto-rows: 9rem 30rem 30rem; */
     padding-top: 9rem;
     padding-bottom: 5rem;
     padding-right: 2rem;
 }
 
 @media screen and (max-width: 768px) {
-    .contactForm {
+    .contactSection {
         display: grid;
         width: 100%;
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, 1fr);
+        /* grid-template-columns: auto; */
+        grid-auto-rows: 9rem 70rem;
     }
-    .formDiv:nth-of-type(1) { order: 2; }
-    .formDiv:nth-of-type(2) { order: 1; }
+}
+
+.formHolder {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+@media screen and (max-width: 768px) {
+    .formHolder {
+        grid-template-columns: auto;
+        grid-auto-rows: 35rem 35rem;
+    }
 }
 
 input, textarea {
@@ -37,20 +48,23 @@ form {
 @media screen and (max-width: 768px) {
     form {
         margin: auto;
-        width: 70%;
+        /* width: 70%; */
     }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     form {
         margin: auto;
         width: 70%;
     }
-}
+} */
 
 .form2 {
-    margin-left: 4rem;
-    margin-top: 6rem;
+    margin: 6rem 4rem 6rem 4rem;
+}
+
+.formDiv {
+    margin-top: 4rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -58,8 +72,22 @@ form {
         margin: auto;
     }
 
+    .formDiv:nth-of-type(1) { 
+        order: 2; 
+    }
+
+    .formDiv:nth-of-type(2) { 
+        order: 1; 
+    }
+
     .form2 {
         margin-right: 2rem;
         margin-left: 2rem;
     }
+}
+
+.fullWidth {
+    display: block;
+    width: 100vw;
+    height: 10%;
 }
